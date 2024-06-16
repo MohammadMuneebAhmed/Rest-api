@@ -20,7 +20,7 @@ mongoose
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.log(err));
 
-// Define student schema and model
+
 const LogisticSchema = new mongoose.Schema({
   //1.orderid,4.shipping_date,5.destination_address,2.phone_no,3.email
   orderid: Number, // New field added
